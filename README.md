@@ -12,6 +12,7 @@ We have a dataset of 50 start-up companies. This dataset contains five main info
 
 
 
+
 5 Methods of building a model
 
 1.All-in
@@ -45,6 +46,10 @@ Step-4: Remove that predictor.
 Step-5: Rebuild and fit the model with the remaining variables.
 
 
+
+we get summary
+
+
 ![image](https://user-images.githubusercontent.com/85051683/125206511-5183b780-e2a5-11eb-9efa-d867c175eddd.png)
 
 
@@ -54,6 +59,7 @@ From the table, we will choose the highest p-value, which is for x1=0.953 Now, w
 
 By doing above steps we finally get 
 ![image](https://user-images.githubusercontent.com/85051683/125206550-88f26400-e2a5-11eb-9ab8-5b5671590a1b.png)
+
 As we can see in the above output image, only two variables are left. So only the R&D independent variable is a significant variable for the prediction. So we can now predict efficiently using this variable.
 
 
