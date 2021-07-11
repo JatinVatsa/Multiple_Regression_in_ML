@@ -45,5 +45,15 @@ Step-4: Remove that predictor.
 Step-5: Rebuild and fit the model with the remaining variables.
 
 
+![image](https://user-images.githubusercontent.com/85051683/125206511-5183b780-e2a5-11eb-9efa-d867c175eddd.png)
+
+
+In the above image, we can clearly see the p-values of all the variables. Here x1, x2 are dummy variables, x3 is R&D spend, x4 is Administration spend, and x5 is Marketing spend.
+
+From the table, we will choose the highest p-value, which is for x1=0.953 Now, we have the highest p-value which is greater than the SL value, so will remove the x1 variable (dummy variable) from the table and will refit the model. 
+
+By doing above steps we finally get 
+![image](https://user-images.githubusercontent.com/85051683/125206550-88f26400-e2a5-11eb-9ab8-5b5671590a1b.png)
+As we can see in the above output image, only two variables are left. So only the R&D independent variable is a significant variable for the prediction. So we can now predict efficiently using this variable.
 
 
